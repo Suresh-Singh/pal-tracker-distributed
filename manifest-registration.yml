@@ -2,8 +2,8 @@ applications:
 - name: tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal-su20043051.cf.apps.io
-  memory: 256M
+  - route: registration-pal-su20043051.cfapps.io
+  memory: 512M
   instances: 1
   env:
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'

@@ -2,8 +2,8 @@ applications:
 - name: tracker-timesheets
   path: ./applications/timesheets-server/build/libs/timesheets-server.jar
   routes:
-  - route: timesheets-pal-su20043051cf.apps.io
-  memory: 256M
+  - route: timesheets-pal-su20043051.cfapps.io
+  memory: 512M
   instances: 1
   env:
     REGISTRATION_SERVER_ENDPOINT: http://FILL_ME_IN
