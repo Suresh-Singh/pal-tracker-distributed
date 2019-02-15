@@ -2,8 +2,8 @@ applications:
 - name: tracker-backlog
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
-  - route: backlog-pal-su20043051.apps.io
-  memory: 1G
+  - route: backlog-pal-su20043051cf.apps.io
+  memory: 256M
   instances: 1
   env:
     REGISTRATION_SERVER_ENDPOINT: http://FILL_ME_IN
